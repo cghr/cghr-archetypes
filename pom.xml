@@ -8,11 +8,12 @@
 	<version>1.0-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
-	<name>cghr-archetypes</name>
+	<name>CGHR Archetypes</name>
 	<url>http://www.cghr.org/</url>
 	
 	<modules>
 		<module>cghr-archetype-pom</module>
+		<module>cghr-archetype-quickstart</module>
 	</modules>
 
 	<distributionManagement>
