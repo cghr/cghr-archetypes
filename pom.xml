@@ -10,10 +10,11 @@
 
 	<name>CGHR Archetypes</name>
 	<url>http://www.cghr.org/</url>
-	
+
 	<modules>
 		<module>cghr-archetype-pom</module>
 		<module>cghr-archetype-quickstart</module>
+		<module>cghr-archetype-mojo</module>
 	</modules>
 
 	<distributionManagement>

@@ -4,11 +4,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>org.cghr.archetype</groupId>
-	<artifactId>cghr-archetype-quickstart</artifactId>
+	<artifactId>cghr-archetype-mojo</artifactId>
 	<version>1.0-SNAPSHOT</version>
 	<packaging>maven-archetype</packaging>
 
-	<name>CGHR Archetype for Java</name>
+	<name>CGHR Archetype for Maven Plugin</name>
 	<url>http://www.cghr.org</url>
 
 	<distributionManagement>
