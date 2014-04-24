@@ -15,6 +15,7 @@
 		<module>cghr-archetype-pom</module>
 		<module>cghr-archetype-quickstart</module>
 		<module>cghr-archetype-mojo</module>
+		<module>cghr-archetype-vaadin</module>
 	</modules>
 
 	<distributionManagement>
