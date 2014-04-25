@@ -16,6 +16,7 @@
 		<module>cghr-archetype-quickstart</module>
 		<module>cghr-archetype-mojo</module>
 		<module>cghr-archetype-vaadin</module>
+		<module>cghr-archetype-webapp</module>
 	</modules>
 
 	<distributionManagement>
