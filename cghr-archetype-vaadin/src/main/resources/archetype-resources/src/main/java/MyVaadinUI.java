@@ -14,8 +14,9 @@ import com.vaadin.ui.Button.ClickEvent;
 import com.vaadin.ui.Label;
 import com.vaadin.ui.UI;
 import com.vaadin.ui.VerticalLayout;
+import com.vaadin.ui.Window;
 
-@Theme("mytheme")
+@Theme("reindeer")
 @SuppressWarnings("serial")
 public class MyVaadinUI extends UI
 {
@@ -27,7 +28,7 @@ public class MyVaadinUI extends UI
 
     @Override
     protected void init(VaadinRequest request) {
-        final VerticalLayout layout = new VerticalLayout();
+        /*final VerticalLayout layout = new VerticalLayout();
         layout.setMargin(true);
         setContent(layout);
         
@@ -37,7 +38,22 @@ public class MyVaadinUI extends UI
                 layout.addComponent(new Label("Thank you for clicking"));
             }
         });
-        layout.addComponent(button);
+        layout.addComponent(button);*/
+    	
+    	Window window = new Window("Hello Vaadin!");
+    	window.setImmediate(true);
+    	window.setWidth("20%");
+    	window.setWidth("60%");
+    	window.center();
+    	
+    	VerticalLayout contentLayout = new VerticalLayout();
+    	contentLayout.addComponent(new Label("Hello Vaadin!"));
+    	
+//    	window.setModal(true);
+    	window.setContent(contentLayout);
+    	window.setVisible(true);
+    	this.addWindow(window);
+    	
+    	System.out.println("Windows: " + getWindows().size());
     }
-
 }

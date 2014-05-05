@@ -9,7 +9,7 @@
 	<packaging>maven-archetype</packaging>
 
 	<name>CGHR Archetype for Vaadin</name>
-	<url>http://www.cghr.org/</url>
+	<url>http://www.cghr.org</url>
 
 	<distributionManagement>
 		<repository>
